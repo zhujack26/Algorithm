@@ -35,4 +35,8 @@ qsort() 함수는 배열을 정렬하는 함수
 두 번째 인자 (nmemb): 배열의 요소 개수.
 세 번째 인자 (size): 배열의 각 요소의 크기(바이트)입니다. 일반적으로 sizeof(배열의 요소 타입)로 설정.
 네 번째 인자 (compar): 비교 함수(Compare Function)의 포인터.
+
+링크 참고
+https://twpower.github.io/56-qsort-in-c 
+https://norux.me/10
 */
