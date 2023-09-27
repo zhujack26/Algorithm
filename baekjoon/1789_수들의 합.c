@@ -2,17 +2,18 @@
 
 int main() 
 {
-    int S;
-    scanf("%d", &S);
-    int i = 1;
-    int buf = 0;
-    while (i < S)
+    unsigned long long int S;
+    scanf("%lld", &S);
+    unsigned long long int i = 1;
+    unsigned long long int buf = 0;
+    while (buf < S)
     {
         buf = buf + i;
-        if (buf == S)
+        if (buf > S)
             break;
         i++;
     }
-    printf("%d", i);
+    printf("%lld", i - 1);
     return 0;
 }
+//데이터 형식 수정
