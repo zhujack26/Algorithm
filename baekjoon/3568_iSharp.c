@@ -16,7 +16,7 @@ int main()
     {
         if (input[i] != ' ' && head_flag == 0)
             head[i] = input[i];
-            //head[i+1] = '\0'; //input[i]가 null 전까지를 명시하므로 이 라인을 추가해야 안틀리나??
+            head[i+1] = '\0'; //input[i]가 null 전까지를 명시하므로 이 라인을 추가해야 안틀리나??
         if(input[i] == ' ')
         {
             head_flag = 1;
@@ -29,7 +29,7 @@ int main()
                 if ((('A' <= input[i]) && (input[i] <= 'Z')) || (('a' <= input[i]) && (input[i] <= 'z')))
                 {
                     alphabet[k] = input[i];
-                    //alphabet[k+1] = '\0';
+                    alphabet[k+1] = '\0';
                     k++;
                 }
                 if (input[i] == ',')
