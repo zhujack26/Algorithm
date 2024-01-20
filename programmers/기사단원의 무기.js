@@ -18,3 +18,7 @@ function solution(number, limit, power) {
     }
     return result;
 }
+/* 
+두번째 for문의 최대범위를 i의 제곱근으로 두어 시간 복잡도 줄이기
+https://kbw1101.tistory.com/32
+*/
