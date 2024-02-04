@@ -24,7 +24,7 @@ int main()
         }
         else if((a % i != 0) || (b % i != 0))
             i++;
-        //최대공약수 구하는 법 (공통 소인수로 몫이 서로소가 될 때까지 나오고 모두 곱하기)
+        //최소공배수 구하는 법 (공통 소인수로 몫이 서로소가 될 때까지 나오고 모두 곱하기)
     }
     result_min = result_min * a * b;
     printf("%d\n%d", result_max, result_min);
