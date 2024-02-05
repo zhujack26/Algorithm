@@ -1,3 +1,4 @@
+/*
 function solution(ingredient) {
     let count = 0;
     let location = 0;
@@ -15,3 +16,19 @@ function solution(ingredient) {
     return count;
 }
 //시간초과 && 실패 
+*/
+
+/*
+function solution(ingredient) {
+    let count = 0;
+    ingredient = ingredient.join('');
+    if (!(ingredient.includes("1231")))
+        return count;
+    while (ingredient.includes("1231")) {
+        ingredient = ingredient.replace("1231", '');
+        count++;
+    }
+    return count;
+}
+//시간초과
+*/
